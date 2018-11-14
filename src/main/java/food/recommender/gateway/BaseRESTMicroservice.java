@@ -11,16 +11,10 @@ import io.vertx.servicediscovery.types.HttpEndpoint;
 public abstract class BaseRESTMicroservice extends AbstractVerticle {
 
 
-    private ServiceDiscovery discovery;
-
+    protected ServiceDiscovery discovery;
+    protected static String UUID_PARAM = "uuid";
     protected static String HOST = "localhost";
 
-
-    @Override
-    public void start() throws Exception {
-        discovery = ServiceDiscovery.create(vertx);
-
-    }
 
     protected Future<Void> publishHTTPEndPoint(String name, String host, int port, String apiPath) {
         Record record = HttpEndpoint.createRecord(name, host, port, apiPath);
@@ -46,13 +40,13 @@ public abstract class BaseRESTMicroservice extends AbstractVerticle {
         Future<HttpServer> serverFuture = Future.future();
         vertx.createHttpServer().
                 requestHandler(router::accept).
-                listen(getPort(), res->{
-                    if(res.succeeded()){
+                listen(getPort(), res -> {
+                    if (res.succeeded()) {
                         serverFuture.complete();
 
                     }
                 });
-        return serverFuture.map(server->null);
+        return serverFuture.map(server -> null);
     }
 
     protected abstract int getPort();
