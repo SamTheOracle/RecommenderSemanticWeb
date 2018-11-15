@@ -1,15 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e845ab1b-c758-4f52-b5f5-9d268654525f" name="Default Changelist" comment="backend setup">
-      <change afterPath="$PROJECT_DIR$/src/main/java/food/recommender/user/accountmicroservice/AccountRESTAPIService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/food/recommender/user/dietmicroservice/DietRESTAPIService.java" afterDir="false" />
+    <list default="true" id="e845ab1b-c758-4f52-b5f5-9d268654525f" name="Default Changelist" comment="minor">
+      <change afterPath="$PROJECT_DIR$/src/main/resources/7_nordic_walking.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/Free_Fitness_Vector_ai.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/Healthy_Lifestyle_Vector.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/Heart_Rate_Run_Free_Vector.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/Lovely-autumn-background-with-flat-design.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/Night_camping.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/childhood_background_joyful_children_grandfather_icons_cartoon_design_6838179.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/happy_hospital_background_joyful_doctors_patients_icons_6835157.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/nordic walking.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/personal_trainers.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/test.rdf" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.8/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.8/fileHashes/fileHashes.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.8/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.8/fileHashes/fileHashes.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/food/recommender/foodmicroservice/FoodRESTAPIService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/food/recommender/foodmicroservice/FoodRESTAPIService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/food/recommender/gateway/BaseRESTMicroservice.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/food/recommender/gateway/BaseRESTMicroservice.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -25,11 +31,28 @@
       <ProjectState />
     </projectState>
   </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <projects_view>
+          <tree_state>
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="FoodData" type="f1a62948:ProjectNode" />
+              </path>
+            </expand>
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
   <component name="FUSProjectUsageTrigger">
     <session id="-689954052">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="7" />
+          <entry key="project.closed" value="8" />
           <entry key="project.open.time.1" value="1" />
           <entry key="project.open.time.12" value="3" />
           <entry key="project.open.time.14" value="1" />
@@ -43,14 +66,14 @@
         <counts>
           <entry key="gradle" value="2" />
           <entry key="gradlew" value="1" />
-          <entry key="java" value="22" />
+          <entry key="java" value="51" />
           <entry key="sparql" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="Groovy" value="2" />
-          <entry key="JAVA" value="22" />
+          <entry key="JAVA" value="51" />
           <entry key="PLAIN_TEXT" value="1" />
           <entry key="SPARQL" value="1" />
         </counts>
@@ -58,19 +81,23 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="37" />
-          <entry key="gradle" value="18" />
-          <entry key="java" value="2380" />
-          <entry key="txt" value="14" />
+          <entry key="gradle" value="22" />
+          <entry key="java" value="4364" />
+          <entry key="txt" value="35" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Groovy" value="18" />
-          <entry key="JAVA" value="2380" />
-          <entry key="PLAIN_TEXT" value="51" />
+          <entry key="Groovy" value="22" />
+          <entry key="JAVA" value="4364" />
+          <entry key="PLAIN_TEXT" value="72" />
         </counts>
       </usages-collector>
-      <usages-collector id="statistics.vcs.git.usages" />
+      <usages-collector id="statistics.vcs.git.usages">
+        <counts>
+          <entry key="git.branch.create.new" value="1" />
+        </counts>
+      </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
@@ -78,7 +105,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/build.gradle">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="402">
+            <state relative-caret-position="595">
               <caret line="35" column="39" selection-start-line="35" selection-start-column="39" selection-end-line="35" selection-end-column="39" />
             </state>
           </provider>
@@ -87,7 +114,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/food/recommender/gateway/WebServerLauncher.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
+            <state relative-caret-position="748">
               <caret line="44" column="18" selection-start-line="44" selection-end-line="45" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -96,16 +123,23 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/food/recommender/user/accountmicroservice/AccountRESTAPIService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="357">
-              <caret line="23" column="58" selection-start-line="23" selection-start-column="58" selection-end-line="23" selection-end-column="58" />
+            <state relative-caret-position="204">
+              <caret line="29" column="21" selection-start-line="29" selection-start-column="21" selection-end-line="29" selection-end-column="21" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#1163#1164#0" expanded="true" />
-                <element signature="e#1187#1188#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="51">
+              <caret line="3" column="2" selection-start-line="3" selection-start-column="2" selection-end-line="3" selection-end-column="2" />
             </state>
           </provider>
         </entry>
@@ -114,7 +148,7 @@
         <entry file="file://$PROJECT_DIR$/src/main/java/food/recommender/gateway/BaseRESTMicroservice.java">
           <provider selected="true" editor-type-id="text-editor">
             <state>
-              <caret column="33" lean-forward="true" selection-start-column="33" selection-end-column="33" />
+              <caret column="33" selection-start-column="33" selection-end-column="33" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -125,7 +159,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/food/recommender/foodmicroservice/FoodRESTAPIService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
+            <state relative-caret-position="221">
               <caret line="13" selection-start-line="13" selection-end-line="16" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -139,8 +173,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="package-info" />
         <option value="SPARQL Ask" />
+        <option value="Interface" />
+        <option value="package-info" />
         <option value="Class" />
       </list>
     </option>
@@ -153,6 +188,11 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
   </component>
   <component name="GradleLocalSettings">
     <option name="myGradleHomes">
@@ -336,9 +376,9 @@
     </option>
     <option name="modificationStamps">
       <map>
-        <entry key="$PROJECT_DIR$" value="6163810063935" />
+        <entry key="$PROJECT_DIR$" value="6163814517134" />
         <entry key="$PROJECT_DIR$/.gradle" value="0" />
-        <entry key="$PROJECT_DIR$/build.gradle" value="1529529181" />
+        <entry key="$PROJECT_DIR$/build.gradle" value="708403152" />
         <entry key="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" value="2585518924" />
         <entry key="$PROJECT_DIR$/settings.gradle" value="1875174512" />
       </map>
@@ -544,11 +584,15 @@
         <option value="$PROJECT_DIR$/src/main/java/food/recommender/gateway/SomeDatabaseService.java" />
         <option value="$PROJECT_DIR$/src/main/java/food/recommender/gateway/package-info.java" />
         <option value="$PROJECT_DIR$/src/main/java/food/recommender/user/duhdsjk.java" />
+        <option value="$PROJECT_DIR$/src/main/java/food/recommender/user/accountmicroservice/EventBusProxy/package-info.java" />
         <option value="$PROJECT_DIR$/build.gradle" />
-        <option value="$PROJECT_DIR$/src/main/java/food/recommender/foodmicroservice/FoodRESTAPIService.java" />
-        <option value="$PROJECT_DIR$/src/main/java/food/recommender/gateway/WebServerLauncher.java" />
-        <option value="$PROJECT_DIR$/src/main/java/food/recommender/user/accountmicroservice/AccountRESTAPIService.java" />
         <option value="$PROJECT_DIR$/src/main/java/food/recommender/gateway/BaseRESTMicroservice.java" />
+        <option value="$PROJECT_DIR$/src/main/java/food/recommender/ConsumerAddresses.java" />
+        <option value="$PROJECT_DIR$/src/main/java/food/recommender/foodmicroservice/FoodRESTAPIService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/food/recommender/user/accountmicroservice/EventBusProxy/UserAccountService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/food/recommender/gateway/WebServerLauncher.java" />
+        <option value="$PROJECT_DIR$/src/main/java/food/recommender/user/accountmicroservice/EventBusProxy/UserAccountServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/food/recommender/user/accountmicroservice/AccountRESTAPIService.java" />
       </list>
     </option>
   </component>
@@ -566,8 +610,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -633,12 +677,15 @@
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Repos\RecommenderFood\src\main\java\food\recommender\gateway" />
+    </key>
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="food.recommender.user.accountmicroservice.EventBusProxy" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\Repos\RecommenderFood\src\main\java\food\recommender\gateway" />
       <recent name="D:\Repos\RecommenderFood\src\main\java" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\Repos\RecommenderFood\src\main\java\food\recommender\gateway" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -756,14 +803,21 @@
       <option name="project" value="LOCAL" />
       <updated>1541869259963</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="account set up">
+      <created>1542226299630</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1542226299630</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2785235" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.28255033" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="UI Designer" order="3" />
@@ -780,12 +834,12 @@
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Build" order="10" weight="0.32907802" />
-      <window_info anchor="bottom" id="Messages" order="11" weight="0.32907802" />
+      <window_info anchor="bottom" id="Messages" order="11" visible="true" weight="0.32907802" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="right" id="Gradle" order="4" />
+      <window_info anchor="right" id="Gradle" order="4" weight="0.3295302" />
       <window_info anchor="right" id="Palette&#9;" order="5" />
       <window_info anchor="right" id="Maven Projects" order="6" />
     </layout>
@@ -795,7 +849,9 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="backend setup" />
-    <option name="LAST_COMMIT_MESSAGE" value="backend setup" />
+    <MESSAGE value="account set up" />
+    <MESSAGE value="minor" />
+    <option name="LAST_COMMIT_MESSAGE" value="minor" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -805,18 +861,6 @@
           <line>38</line>
           <properties />
           <option name="timeStamp" value="1" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/food/recommender/gateway/WebServerLauncher.java</url>
-          <line>64</line>
-          <properties />
-          <option name="timeStamp" value="7" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/food/recommender/gateway/WebServerLauncher.java</url>
-          <line>76</line>
-          <properties />
-          <option name="timeStamp" value="10" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
@@ -844,27 +888,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/food/recommender/user/duhdsjk.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="20" selection-start-line="2" selection-start-column="20" selection-end-line="2" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/food/recommender/gateway/package-info.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="69" selection-start-column="69" selection-end-column="69" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="402">
-          <caret line="35" column="39" selection-start-line="35" selection-start-column="39" selection-end-line="35" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/food/recommender/user/duhdsjk.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/food/recommender/user/dietmicroservice/DietRESTAPIService.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
@@ -872,19 +896,56 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/food/recommender/gateway/WebServerLauncher.java">
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.vertx/vertx-core/3.5.4/7aebf47c0b9f35b297276eb006b91151a2f756e5/vertx-core-3.5.4-sources.jar!/io/vertx/core/impl/DeploymentManager.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="44" column="18" selection-start-line="44" selection-end-line="45" />
+        <state relative-caret-position="125">
+          <caret line="517" selection-start-line="517" selection-end-line="517" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/food/recommender/gateway/package-info.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="5" selection-start-column="5" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/food/recommender/user/accountmicroservice/EventBusProxy/package-info.java" />
+    <entry file="file://$PROJECT_DIR$/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="595">
+          <caret line="35" column="39" selection-start-line="35" selection-start-column="39" selection-end-line="35" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/food/recommender/gateway/BaseRESTMicroservice.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="33" selection-start-column="33" selection-end-column="33" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/food/recommender/ConsumerAddresses.java" />
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.vertx/vertx-service-discovery/3.5.3/b343f65b9f9641a1d0454804cda000ffcc757d26/vertx-service-discovery-3.5.3-sources.jar!/io/vertx/servicediscovery/Record.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="125" selection-start-line="125" selection-end-line="125" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.vertx/vertx-service-discovery/3.5.3/b343f65b9f9641a1d0454804cda000ffcc757d26/vertx-service-discovery-3.5.3-sources.jar!/io/vertx/servicediscovery/impl/DiscoveryImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="420" selection-start-line="420" selection-end-line="420" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/food/recommender/foodmicroservice/FoodRESTAPIService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
+        <state relative-caret-position="221">
           <caret line="13" selection-start-line="13" selection-end-line="16" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -892,25 +953,74 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/food/recommender/gateway/BaseRESTMicroservice.java">
+    <entry file="file://$PROJECT_DIR$/src/main/generated/food/recommender/user/accountmicroservice/EventBusProxy/UserAccountServiceVertxProxyHandler.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="33" lean-forward="true" selection-start-column="33" selection-end-column="33" />
+        <state relative-caret-position="132">
+          <caret line="122" selection-start-line="122" selection-end-line="122" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/food/recommender/user/accountmicroservice/EventBusProxy/UserAccountService.java" />
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.vertx/vertx-core/3.5.4/7aebf47c0b9f35b297276eb006b91151a2f756e5/vertx-core-3.5.4-sources.jar!/io/vertx/core/json/JsonObject.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="159">
+          <caret line="530" selection-start-line="530" selection-end-line="530" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.vertx/vertx-mongo-client/3.5.4/69384c12c85132b2c3a0b0ed01aefd9f014d7c45/vertx-mongo-client-3.5.4-sources.jar!/io/vertx/ext/mongo/impl/MongoClientImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="166">
+          <caret line="124" selection-start-line="124" selection-end-line="124" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.vertx/vertx-core/3.5.4/7aebf47c0b9f35b297276eb006b91151a2f756e5/vertx-core-3.5.4-sources.jar!/io/vertx/core/Future.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="269" selection-start-line="269" selection-end-line="269" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.vertx/vertx-core/3.5.4/7aebf47c0b9f35b297276eb006b91151a2f756e5/vertx-core-3.5.4-sources.jar!/io/vertx/core/impl/FutureImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="125">
+          <caret line="80" selection-start-line="80" selection-end-line="80" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/food/recommender/gateway/WebServerLauncher.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="748">
+          <caret line="44" column="18" selection-start-line="44" selection-end-line="45" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/food/recommender/user/accountmicroservice/EventBusProxy/UserAccountServiceImpl.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/food/recommender/user/accountmicroservice/AccountRESTAPIService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="23" column="58" selection-start-line="23" selection-start-column="58" selection-end-line="23" selection-end-column="58" />
+        <state relative-caret-position="204">
+          <caret line="29" column="21" selection-start-line="29" selection-start-column="21" selection-end-line="29" selection-end-column="21" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#1163#1164#0" expanded="true" />
-            <element signature="e#1187#1188#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/generated/food/recommender/user/accountmicroservice/EventBusProxy/UserAccountServiceVertxEBProxy.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="19" column="30" selection-start-line="19" selection-start-column="30" selection-end-line="19" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="2" selection-start-line="3" selection-start-column="2" selection-end-line="3" selection-end-column="2" />
         </state>
       </provider>
     </entry>
